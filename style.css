@@ -38,14 +38,28 @@
     color: aqua;
     margin: 5px;
     border: solid rgb(15, 128, 0);
-
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 5px;
+}
+.nav_item:hover{
+    background-color: rgb(232, 74, 21);
 }
 .nav_item1{
     display: inline-block;
     margin-right: 30px;
     border: solid yellow;
     color: aqua;
-    
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 5px; 
+}
+.nav_item1:hover{
+    background-color: rgb(223, 27, 27);
 }
 .boque_info_1{
     display: block;
@@ -54,8 +68,9 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
+
 .nombre{
     font-size:60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -81,26 +96,27 @@
 hr{
     border: none;
     border-top: 4px solid rgb(47, 255, 227);
-    width: 20%;
-    margin: 20px auto;
+    width: 10%;
+    margin: 2px auto;
+    border-radius: 3px;
 }
 .bar_redes{
     display: flex;
     border: solid rgb(229, 49, 184);
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 .img_redes img{
     width: 25px;
 }
 .img_redes{
     display: inline-block;
-    margin: 5px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding: 25px 10px;
+    
 }
 .bloque_info_2_titulo{
-    margin-top: 250px;
+    margin-top: auto;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -108,21 +124,25 @@ hr{
     justify-content: center;
     color: rgb(0, 156, 104);
     border: solid rgb(243, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 .bloque_info_2{
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 10px;
+    padding: 0;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(2, 129, 129);
+    border: solid rgb(243, 0, 0);
 }
 .img_bus img{
     width: 170px;
-    background-size: cover;
-    background-position: center;
-    display:inline-block;
+    height: 170px;
+    object-fit: cover;
+    display:block;
     margin: 10px;
 }
 .bloque_img{
@@ -132,6 +152,7 @@ hr{
     align-items: center;
     justify-content: center;
     margin-top: 60px;
+    padding: 80px;
 }
 .bloque_img_sup{
     display: flex;
@@ -157,4 +178,7 @@ hr{
 }
 .bloque_img_inf img{
     width: 200px;
+}
+.bloque_2{
+    background-color: black;
 }
